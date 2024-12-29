@@ -20,7 +20,7 @@ export default function Apparel() {
       name: 'BE VIGILANT, BE RETICENT, BE RELENTLESS',
     },
     {
-      name: ' LEGACY MANUFACTURING',
+      name: ' LEGACY MANUFACTURING (BLOUSON OR BOMBER)',
     },
     {
       name: 'SITREP',
