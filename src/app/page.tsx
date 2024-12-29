@@ -20,10 +20,10 @@ export default function Home() {
         PRIVATIZED INTELLIGENCE
       </p>
       <p>
-        BE VIGILANT, BE RETICENT , BE RELENTLESS
+        BE VIGILANT, BE RETICENT, BE RELENTLESS
       </p>
       <p>
-        TACTICAL SIGHTS
+        TACTICAL SIGHTS BY PRECISION MACHINERY
       </p>
       <p>
         SITREP
