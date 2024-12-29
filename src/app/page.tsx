@@ -1,39 +1,27 @@
+import Apparel from './apparel/apparel';
+import Items from './items/items';
+
 export default function Home() {
   return (
     <div className="min-h-screen font-['Times_New_Roman'] p-2">
       <p>
-        USA SS25 RTW 001 <br/>
+        U.S.A. SS 2025 RTW 001 <br/>
         FORGED IN AMERICA <br/>
         MFG. BY PRECISION MACHINERY
       </p>
-      <br/>
+      <br />
+      <p>
+        ALL PIECES WILL BE LIMITED QUANTITY <br/>
+        PLEASE EMAIL FOR PRICE AND PURCHASE <br/>
+        NO RETURNS EXCHANGES OR REFUNDS
+      </p>
+      <br/><br/><br/><br/>
       <p style={{textDecoration: 'underline'}}>
         COLLECTION INCLUDES
       </p>
-      <p>
-        LETHALITY CALCULATIONS
-      </p>
-      <p>
-        GOOD TIL IT FUCKIN' AIN'T
-      </p>
-      <p>
-        IN MEMORY OF WHEN I GAVE A XXXX
-      </p>
-      <p>
-        PRIVATIZED INTELLIGENCE
-      </p>
-      <p>
-        BE VIGILANT, BE RETICENT, BE RELENTLESS
-      </p>
-      <p>
-        TACTICAL SIGHTS BY PRECISION MACHINERY
-      </p>
-      <p>
-        SITREP
-      </p>
-      <p>
-        TARGET PACKAGE
-      </p>
+      <Apparel />
+      <br />
+      <Items />
     </div>
   );
 }
