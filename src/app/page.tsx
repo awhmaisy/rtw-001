@@ -14,6 +14,9 @@ export default function Home() {
         LETHALITY CALCULATIONS
       </p>
       <p>
+        GOOD TIL IT FUCKIN' AIN'T
+      </p>
+      <p>
         IN MEMORY OF WHEN I GAVE A XXXX
       </p>
       <p>
