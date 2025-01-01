@@ -11,10 +11,10 @@ export default function Apparel() {
       name: 'GOOD TIL IT FUCKIN\' AIN\'T',
     },
     {
-      name: 'IN MEMORY OF WHEN I GAVE A FUCK',
+      name: 'I AM ONLY AS GOOD AS MY FATHER MAKES ME',
     },
     {
-      name: 'PRIVATIZED INTELLIGENCE',
+      name: 'AS ABOVE SO BELOW',
     },
     {
       name: 'BE VIGILANT, BE RETICENT, BE RELENTLESS',
@@ -27,6 +27,9 @@ export default function Apparel() {
     },
     {
       name: 'TARGET PACKAGE',
+    },
+    {
+      name: 'MONOLOGUE',
     },
     {
       name: 'DIVINE RETRIBUTION',
