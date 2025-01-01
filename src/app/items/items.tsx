@@ -11,10 +11,10 @@ export default function Items() {
       name: 'DECORATIVE MUZZLE GUARD',
     },
     {
-      name: 'ENGRAVED CLIP', 
+      name: 'ENGRAVED BANANA CLIP', 
     },
     {
-      name: 'CARABINER and KEYCHAIN SET', 
+      name: 'CARABINER AND KEYCHAIN SET', 
     }
   ]);
 
