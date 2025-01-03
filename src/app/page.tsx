@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen font-['Times_New_Roman'] p-2">
       <p>
-        U.S.A. SS 2025 RTW 001 <br/>
+        X-12, U.S.A. SS 2025, RTW 001 <br/>
         FORGED IN AMERICA <br/>
         MFG. BY PRECISION MACHINERY
       </p>
