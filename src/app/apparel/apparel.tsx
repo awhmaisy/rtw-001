@@ -17,19 +17,13 @@ export default function Apparel() {
       name: 'AS ABOVE SO BELOW',
     },
     {
-      name: 'BE VIGILANT, BE RETICENT, BE RELENTLESS',
-    },
-    {
-      name: ' LEGACY MANUFACTURING (BLOUSON OR BOMBER)',
+      name: ' LEGACY BLOUSON OR BOMBER',
     },
     {
       name: 'SITREP',
     },
     {
       name: 'TARGET PACKAGE',
-    },
-    {
-      name: 'MONOLOGUE',
     },
     {
       name: 'DIVINE RETRIBUTION',
