@@ -4,6 +4,9 @@ import Items from './items/items';
 export default function Home() {
   return (
     <div className="min-h-screen font-['Times_New_Roman'] p-2">
+      <div className="w-full flex justify-center items-center mb-8">
+        <img src="/Evangelion Title Card.png" alt="Description" width={300} className="mr-auto" />
+      </div>
       <p>
         X-12, U.S.A. SS 2025, RTW 001 <br/>
         FORGED IN AMERICA <br/>
