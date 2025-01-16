@@ -1,9 +1,18 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
+
+// First, let's define an interface for our item structure
+interface Item {
+  name: string;
+  description: string;
+  image: string;
+  maxWidth: string;
+}
 
 export default function Sof() {
-  const [items] = useState([
+  const [items] = useState<Item[]>([
     {
       name: 'LOGOMARK TEE',
       description: 'Limited-edition and special-supply tees. 222 units released on XXXX for your enjoyment and aspiration.',
@@ -24,7 +33,7 @@ export default function Sof() {
     }
   ]);
 
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
 
   return (
     <div className="flex">
@@ -46,7 +55,13 @@ export default function Sof() {
         {selectedItem && (
           <div className="flex flex-col items-start">
             <p>{selectedItem.description}</p>
-            <img src={selectedItem.image} alt={selectedItem.name} style={{ maxWidth: selectedItem.maxWidth }} />
+            <Image 
+              src={selectedItem.image}
+              alt={selectedItem.name}
+              width={500}
+              height={500}
+              style={{ maxWidth: selectedItem.maxWidth }}
+            />
           </div>
         )}
       </div>
