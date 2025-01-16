@@ -8,10 +8,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-['Times_New_Roman'] flex">
-        <div className="w-1/2">
+        <div className="">
           {children}
         </div>
-        <div className="w-1/2 p-4">
+        <div className="p-4">
         </div>
       </body>
     </html>
