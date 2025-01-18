@@ -8,6 +8,9 @@ export default function Items() {
       name: 'TACTICAL SIGHT',
     },
     {
+      name: "'MY OTHER RIDE' PLATE COVER",
+    },
+    {
       name: 'DECORATIVE MUZZLE GUARD',
     },
     {
